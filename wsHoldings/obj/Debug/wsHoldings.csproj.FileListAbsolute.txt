@@ -1,0 +1,16 @@
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\wsHoldings.exe.config
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\wsHoldings.exe
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\wsHoldings.pdb
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\JWT.dll
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\Newtonsoft.Json.dll
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\JWT.pdb
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\JWT.xml
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\bin\Debug\Newtonsoft.Json.xml
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.csprojAssemblyReference.cache
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.Form1.resources
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.Properties.Resources.resources
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.csproj.GenerateResource.cache
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.csproj.CoreCompileInputs.cache
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.csproj.CopyComplete
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.exe
+C:\Users\1992b\Desktop\박우일\wsHoldings_c#\wsHoldings\wsHoldings\obj\Debug\wsHoldings.pdb
