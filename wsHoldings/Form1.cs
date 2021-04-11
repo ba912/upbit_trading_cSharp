@@ -23,8 +23,11 @@ namespace wsHoldings
             timer1.Interval = 5000;
             timer1.Enabled = false;
 
-            DataTable marketList = quotationFunction.getMarketList();
-            DataTable test = quotationFunction.allTicker();
+            //DataTable marketList = quotationFunction.getMarketList();
+            //DataTable test = quotationFunction.allTicker();
+            DataTable table = quotationFunction.getMinCandle();
+            
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)

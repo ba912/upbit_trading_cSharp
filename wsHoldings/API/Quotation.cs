@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System;
 using System.Data;
 using System.IO;
 using System.Net;
@@ -19,6 +20,12 @@ namespace wsHoldings.API
         public string GetTicer(string marketCode)
         {
             string url = $"https://api.upbit.com/v1/ticker?markets={marketCode}";
+            return getRequest(url);
+        }
+
+        public string getMincandle()
+        {
+            string url = $"https://api.upbit.com/v1/candles/minutes/1?unit=1&market=KRW-XLM&count=200";
             return getRequest(url);
         }
 
