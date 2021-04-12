@@ -62,14 +62,25 @@ namespace wsHoldings
             quotationFunction.InitializeMarketList();
             DataTable marketList = quotationFunction.getMarketList();
 
-            cb_coin.DataSource = marketList;
-            cb_coin.DisplayMember = "korean_name";
-            cb_coin.ValueMember = "market";
+            lu_coin.DataSource = marketList;
+            lu_coin.DisplayMember = "korean_name";
+            lu_coin.ValueMember = "market";
         }
-
+        /// <summary>
+        /// 감시리스트 조회
+        /// </summary>
         private void getSaveList()
         {
 
+        }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+            commonFunction.setMonitoringList(lu_coin.SelectedValue.ToString()
+                                            ,Convert.ToDouble(txt_rsiBuy.Text)
+                                            , Convert.ToDouble(txt_rsiSell.Text)
+                                            , Convert.ToDouble(txt_lossCut.Text)
+                                            , Convert.ToDouble(txt_unitPrice.Text));
         }
     }
 }

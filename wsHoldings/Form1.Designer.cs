@@ -36,10 +36,10 @@
             this.txt_rsiSell = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txt_cutLine = new System.Windows.Forms.TextBox();
+            this.txt_lossCut = new System.Windows.Forms.TextBox();
             this.txt_unitPrice = new System.Windows.Forms.TextBox();
             this.btn_save = new System.Windows.Forms.Button();
-            this.cb_coin = new System.Windows.Forms.ComboBox();
+            this.lu_coin = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.timer_10min = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
@@ -100,12 +100,12 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "개당 매수 금액";
             // 
-            // txt_cutLine
+            // txt_lossCut
             // 
-            this.txt_cutLine.Location = new System.Drawing.Point(728, 19);
-            this.txt_cutLine.Name = "txt_cutLine";
-            this.txt_cutLine.Size = new System.Drawing.Size(100, 21);
-            this.txt_cutLine.TabIndex = 6;
+            this.txt_lossCut.Location = new System.Drawing.Point(728, 19);
+            this.txt_lossCut.Name = "txt_lossCut";
+            this.txt_lossCut.Size = new System.Drawing.Size(100, 21);
+            this.txt_lossCut.TabIndex = 6;
             // 
             // txt_unitPrice
             // 
@@ -122,14 +122,15 @@
             this.btn_save.TabIndex = 8;
             this.btn_save.Text = "저장";
             this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 
-            // cb_coin
+            // lu_coin
             // 
-            this.cb_coin.FormattingEnabled = true;
-            this.cb_coin.Location = new System.Drawing.Point(61, 35);
-            this.cb_coin.Name = "cb_coin";
-            this.cb_coin.Size = new System.Drawing.Size(121, 20);
-            this.cb_coin.TabIndex = 9;
+            this.lu_coin.FormattingEnabled = true;
+            this.lu_coin.Location = new System.Drawing.Point(61, 35);
+            this.lu_coin.Name = "lu_coin";
+            this.lu_coin.Size = new System.Drawing.Size(121, 20);
+            this.lu_coin.TabIndex = 9;
             // 
             // label5
             // 
@@ -161,10 +162,10 @@
             this.ClientSize = new System.Drawing.Size(1047, 534);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.cb_coin);
+            this.Controls.Add(this.lu_coin);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.txt_unitPrice);
-            this.Controls.Add(this.txt_cutLine);
+            this.Controls.Add(this.txt_lossCut);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txt_rsiSell);
@@ -188,10 +189,10 @@
         private System.Windows.Forms.TextBox txt_rsiSell;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txt_cutLine;
+        private System.Windows.Forms.TextBox txt_lossCut;
         private System.Windows.Forms.TextBox txt_unitPrice;
         private System.Windows.Forms.Button btn_save;
-        private System.Windows.Forms.ComboBox cb_coin;
+        private System.Windows.Forms.ComboBox lu_coin;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Timer timer_10min;
         private System.Windows.Forms.Button button1;
