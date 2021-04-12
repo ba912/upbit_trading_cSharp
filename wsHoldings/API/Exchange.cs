@@ -14,10 +14,10 @@ namespace wsHoldings.API
 {
     public class Exchange
     {
-        private string accessKey = Config.config.ACCESS_KEY;
-        private string secretKey = Config.config.SECRET_KEY;
         public string getAccount()
         {
+            string accessKey = Config.config.ACCESS_KEY;
+            string secretKey = Config.config.SECRET_KEY;
             string url = "https://api.upbit.com/v1/accounts";
             string uuid = Guid.NewGuid().ToString();
             var payload = new Dictionary<string, object>

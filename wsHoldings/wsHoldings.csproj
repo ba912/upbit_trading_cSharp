@@ -64,6 +64,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Function\CommonFunction.cs" />
     <Compile Include="Function\ExchangeFunction.cs" />
     <Compile Include="Function\QuotationFunction.cs" />
     <Compile Include="Program.cs" />
