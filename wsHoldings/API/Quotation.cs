@@ -23,9 +23,9 @@ namespace wsHoldings.API
             return getRequest(url);
         }
 
-        public string getMincandle()
+        public string getMincandle(string marketCode)
         {
-            string url = $"https://api.upbit.com/v1/candles/minutes/1?unit=1&market=KRW-XLM&count=200";
+            string url = $"https://api.upbit.com/v1/candles/minutes/1?unit=1&market={marketCode}&count=200";
             return getRequest(url);
         }
 

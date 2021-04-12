@@ -16,23 +16,21 @@ namespace wsHoldings
     public partial class Form1 : Form
     {
         private QuotationFunction quotationFunction = new QuotationFunction();
+        private ExchangeFunction exchangeFunction = new ExchangeFunction();
         public Form1()
         {
             InitializeComponent();
             quotationFunction.InitializeMarketList();
-            timer1.Interval = 5000;
-            timer1.Enabled = false;
-
-            //DataTable marketList = quotationFunction.getMarketList();
-            //DataTable test = quotationFunction.allTicker();
-            DataTable table = quotationFunction.getMinCandle();
-            
-            
+            timer1.Interval = 1000;
+            timer1.Enabled = true;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
+            DataTable marketList = quotationFunction.getMarketList();
+            DataTable ticker = quotationFunction.allTicker();
+            DataTable table = quotationFunction.getMinCandle();
+            DataTable account = exchangeFunction.getAccount();
         }
     }
 }

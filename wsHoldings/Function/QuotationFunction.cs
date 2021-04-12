@@ -38,7 +38,7 @@ namespace wsHoldings.Function
 
         public DataTable getMinCandle()
         {
-            DataTable table =  JsonConvert.DeserializeObject<DataTable>(quotation.getMincandle());
+            DataTable table =  JsonConvert.DeserializeObject<DataTable>(quotation.getMincandle("KRW-BTC"));
             table.Columns.Add("Up", typeof(double));
             table.Columns.Add("Down", typeof(double));
             table.Columns.Add("AU", typeof(double));
